@@ -1,0 +1,88 @@
+:root {
+  --primary: #000000;
+  --bg: #1b5f2c;
+}
+
+* {
+  font-family: "popins", Sans-Serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  margin: 0 50px;
+  background-color: var(--primary);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: rgba(21, 94, 18 0, 8);
+  border-bottom: 1px solid #1c630e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffffff;
+  font-style: italic;
+}
+
+.navbar .navbar-logo span {
+  color: var(--bg);
+}
+
+.navbar .navbar-nav a {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1.3rem;
+  margin: 0 1rem;
+transition: all 0.3s ease 0s;
+   padding: 8px 20px;
+   background-color: rgb(104, 103, 103);
+   border: none;
+   border-radius: 40px;
+   cursor: pointer;
+ transition: all 0.3s ease 0s;
+}
+
+navbar .navbar-nav a:hover {
+  color: var(--bg);
+}
+.div .divclass span {
+  color: var(--bg);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 50% auto;
+  gap: 30px;
+  margin-top: 120px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.content .content-center {
+  display: block;
+  width: 100%;
+}
+
+.content .content-center .info p {
+  font-size: 19px;
+  font-family: sans-serif;
+  margin-bottom: 1rem;
+  color: white;
+  font-weight: 700;
+}
